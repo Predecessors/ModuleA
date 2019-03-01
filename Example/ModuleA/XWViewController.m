@@ -7,8 +7,10 @@
 //
 
 #import "XWViewController.h"
+#import "ModuleAHomeViewController.h"
 
 @interface XWViewController ()
+- (IBAction)clickAction:(UIButton *)sender;
 
 @end
 
@@ -18,6 +20,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +29,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)clickAction:(UIButton *)sender {
+    [self.navigationController pushViewController:[[ModuleAHomeViewController alloc] init] animated:YES];
+}
 @end

@@ -1,4 +1,5 @@
-use_frameworks!
+#use_frameworks!
+#不注释use_frameworks!时,相当于用的是动态库(会出现文件找不到的问题),而注释了use_frameworks!相当于使用的是静态库(类似于.a静态库,建议使用).
 
 platform :ios, '8.0'
 
