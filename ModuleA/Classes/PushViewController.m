@@ -18,7 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor blueColor];
-    self.navigationItem.title = @"模块A子页面";
+    self.navigationItem.title = @"模块A子页面2.0.0";
 }
 
 
